@@ -1,0 +1,156 @@
+[
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "ORDER_MATERIAL_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Material Identifier",
+    "description": "Unique identifier for an order material record.",
+    "businessKeywords": [
+      "order material id",
+      "order material identifier",
+      "material record id",
+      "order item id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "ORDER_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Identifier",
+    "description": "Identifier associated with the order for the material record.",
+    "businessKeywords": [
+      "order id",
+      "order identifier",
+      "order reference",
+      "associated order"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "OBJECT_ID",
+    "dataType": "NUMBER",
+    "businessName": "Object Identifier",
+    "description": "Identifier associated with the object represented by the order material record.",
+    "businessKeywords": [
+      "object id",
+      "object identifier",
+      "material object",
+      "item identifier"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "QUANTITY",
+    "dataType": "NUMBER",
+    "businessName": "Quantity",
+    "description": "Quantity of the material or item associated with the order.",
+    "businessKeywords": [
+      "quantity",
+      "material quantity",
+      "item quantity",
+      "number of items"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "DESCRIPTION",
+    "dataType": "VARCHAR2",
+    "businessName": "Material Description",
+    "description": "Descriptive information about the material or item associated with the order.",
+    "businessKeywords": [
+      "material description",
+      "item description",
+      "product description",
+      "description"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "OBJECT_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Object Type",
+    "description": "Classification or type of the object associated with the order material record.",
+    "businessKeywords": [
+      "object type",
+      "object category",
+      "item type",
+      "classification"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "WEB_VISIBLE",
+    "dataType": "NUMBER(1,0)",
+    "businessName": "Web Visibility Indicator",
+    "description": "Indicator showing whether the material or item is visible through a web interface.",
+    "businessKeywords": [
+      "web visible",
+      "web visibility",
+      "online visibility",
+      "website display"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "PRODUCT_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Product Type",
+    "description": "Business classification or category of the product associated with the order material.",
+    "businessKeywords": [
+      "product type",
+      "product category",
+      "product classification",
+      "item type"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "PROD_ID",
+    "dataType": "NUMBER",
+    "businessName": "Product Identifier",
+    "description": "Identifier associated with the product represented by the order material record.",
+    "businessKeywords": [
+      "product id",
+      "product identifier",
+      "product reference",
+      "item id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "DISTRIBUTION_CHANNEL",
+    "dataType": "VARCHAR2",
+    "businessName": "Distribution Channel",
+    "description": "Distribution channel associated with the material or product.",
+    "businessKeywords": [
+      "distribution channel",
+      "sales channel",
+      "delivery channel",
+      "distribution"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columnName": "DISTRIBUTION_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Distribution Type",
+    "description": "Classification or type of distribution associated with the material or product.",
+    "businessKeywords": [
+      "distribution type",
+      "distribution category",
+      "distribution classification",
+      "delivery type"
+    ]
+  }
+]

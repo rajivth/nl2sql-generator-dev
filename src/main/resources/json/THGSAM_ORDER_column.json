@@ -1,0 +1,389 @@
+[
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "ORDER_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Identifier",
+    "description": "Unique identifier for an order record.",
+    "businessKeywords": ["order id", "order identifier", "order number", "order reference"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CREATED_ON",
+    "dataType": "DATE",
+    "businessName": "Order Creation Date",
+    "description": "Date on which the order record was created.",
+    "businessKeywords": ["order creation date", "created date", "order created", "creation date"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CREATED_BY_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Created By Identifier",
+    "description": "Identifier associated with the person or entity that created the order record.",
+    "businessKeywords": ["created by", "order creator", "creator id", "order created by"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "APPROVED_ON",
+    "dataType": "DATE",
+    "businessName": "Order Approval Date",
+    "description": "Date on which the order was approved.",
+    "businessKeywords": ["approval date", "approved date", "order approval", "order approved"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "APPROVED_BY_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Approved By Identifier",
+    "description": "Identifier associated with the person or entity that approved the order.",
+    "businessKeywords": ["approved by", "order approver", "approver id", "order approval"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "ORDER_STATUS",
+    "dataType": "VARCHAR2",
+    "businessName": "Order Status",
+    "description": "Current business status or state of the order.",
+    "businessKeywords": ["order status", "order state", "order progress", "order condition"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "SHIPPING_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Shipping Type",
+    "description": "Classification of the shipping method or type associated with the order.",
+    "businessKeywords": ["shipping type", "delivery type", "shipping method", "delivery method"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "SHIPPING_APPROVED_BY_ID",
+    "dataType": "NUMBER",
+    "businessName": "Shipping Approved By Identifier",
+    "description": "Identifier associated with the person or entity that approved shipping for the order.",
+    "businessKeywords": ["shipping approver", "shipping approved by", "delivery approval", "shipping approval"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "SHIPPING_APPROVED_ON",
+    "dataType": "DATE",
+    "businessName": "Shipping Approval Date",
+    "description": "Date on which shipping for the order was approved.",
+    "businessKeywords": ["shipping approval date", "shipping approved date", "delivery approval", "shipping approval"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "COMMENTS",
+    "dataType": "VARCHAR2",
+    "businessName": "Order Comments",
+    "description": "Comments or notes associated with the order.",
+    "businessKeywords": ["order comments", "order notes", "comments", "notes"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "ORDER_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Order Type",
+    "description": "Business classification or category of the order.",
+    "businessKeywords": ["order type", "order category", "order classification", "type of order"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "SHIPPED_ON",
+    "dataType": "DATE",
+    "businessName": "Shipment Date",
+    "description": "Date on which the order was shipped.",
+    "businessKeywords": ["shipment date", "shipped date", "shipping date", "order shipped"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "LOW_PLAN_COUNT",
+    "dataType": "NUMBER",
+    "businessName": "Low Plan Count",
+    "description": "Count associated with the low plan indicator or category.",
+    "businessKeywords": ["low plan count", "plan count", "low plans", "plan quantity"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "APP_ID",
+    "dataType": "NUMBER",
+    "businessName": "Application Identifier",
+    "description": "Identifier associated with the application related to the order.",
+    "businessKeywords": ["application id", "app id", "application identifier", "order application"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "WEB_SERVICE_FLAG",
+    "dataType": "NUMBER",
+    "businessName": "Web Service Indicator",
+    "description": "Indicator showing whether the order is associated with a web service.",
+    "businessKeywords": ["web service", "web service flag", "service indicator", "web service indicator"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "EFULFILLMENT_FLAG",
+    "dataType": "NUMBER",
+    "businessName": "Electronic Fulfillment Indicator",
+    "description": "Indicator showing whether the order is associated with electronic fulfillment.",
+    "businessKeywords": ["electronic fulfillment", "e-fulfillment", "fulfillment flag", "digital fulfillment"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "BLAST_ID",
+    "dataType": "NUMBER",
+    "businessName": "Blast Identifier",
+    "description": "Identifier associated with a business process or entity referred to as a blast.",
+    "businessKeywords": ["blast id", "blast identifier", "blast reference", "blast"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "COM_DIV_SHIPPING_METHOD_ID",
+    "dataType": "NUMBER",
+    "businessName": "Shipping Method Identifier",
+    "description": "Identifier associated with the shipping method used for the order.",
+    "businessKeywords": ["shipping method id", "shipping method", "delivery method", "shipping reference"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "WANT_DATE",
+    "dataType": "DATE",
+    "businessName": "Requested Date",
+    "description": "Date requested or desired in connection with the order.",
+    "businessKeywords": ["requested date", "desired date", "wanted date", "order requested date"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "BUSINESS_JUSTIFICATION",
+    "dataType": "VARCHAR2",
+    "businessName": "Business Justification",
+    "description": "Business reason or justification associated with the order.",
+    "businessKeywords": ["business justification", "business reason", "justification", "order reason"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "ORDERED_ON_BEHALF_BY_ID",
+    "dataType": "NUMBER",
+    "businessName": "Ordered On Behalf Of Identifier",
+    "description": "Identifier associated with the person or entity for whom the order was placed.",
+    "businessKeywords": ["ordered on behalf of", "order beneficiary", "on behalf of", "order for"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "ORDER_REPORTED_FLAG",
+    "dataType": "VARCHAR2",
+    "businessName": "Order Reported Indicator",
+    "description": "Indicator showing whether the order has been reported.",
+    "businessKeywords": ["order reported", "reported flag", "reporting status", "order reporting"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CREATED_BY_TERRITORY_CODE",
+    "dataType": "VARCHAR2",
+    "businessName": "Creator Territory Code",
+    "description": "Territory code associated with the creator of the order.",
+    "businessKeywords": ["territory code", "creator territory", "created territory", "order territory"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CHARGEBACK_NUM",
+    "dataType": "VARCHAR2",
+    "businessName": "Chargeback Number",
+    "description": "Reference number associated with a chargeback related to the order.",
+    "businessKeywords": ["chargeback number", "chargeback", "chargeback reference", "billing adjustment"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "EFULFILMENT_STATUS",
+    "dataType": "VARCHAR2",
+    "businessName": "Electronic Fulfillment Status",
+    "description": "Current status of electronic fulfillment associated with the order.",
+    "businessKeywords": ["electronic fulfillment status", "e-fulfillment status", "fulfillment status", "digital fulfillment status"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "TOTAL_COST",
+    "dataType": "NUMBER",
+    "businessName": "Total Cost",
+    "description": "Total monetary cost associated with the order.",
+    "businessKeywords": ["total cost", "order cost", "total amount", "order amount"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "REPORT_SENT",
+    "dataType": "NUMBER",
+    "businessName": "Report Sent Indicator",
+    "description": "Indicator showing whether a report associated with the order has been sent.",
+    "businessKeywords": ["report sent", "report status", "report delivery", "sent report"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CC_CORRELATION_ID",
+    "dataType": "NUMBER",
+    "businessName": "Correlation Identifier",
+    "description": "Identifier used to correlate related business records or processes.",
+    "businessKeywords": ["correlation id", "correlation identifier", "correlation reference", "tracking id"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "TOTAL_COST_CHARGED",
+    "dataType": "NUMBER",
+    "businessName": "Total Cost Charged",
+    "description": "Total monetary cost charged in connection with the order.",
+    "businessKeywords": ["total cost charged", "charged amount", "order charges", "total charges"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "SF_BATCH_ID",
+    "dataType": "NUMBER",
+    "businessName": "SF Batch Identifier",
+    "description": "Identifier associated with an SF batch related to the order.",
+    "businessKeywords": ["sf batch id", "batch identifier", "batch id", "order batch"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "POLICY_ORDER",
+    "dataType": "NUMBER",
+    "businessName": "Policy Order Indicator",
+    "description": "Indicator identifying whether the order is associated with a policy order classification.",
+    "businessKeywords": ["policy order", "policy indicator", "policy flag", "order classification"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "AOC_ORDER",
+    "dataType": "NUMBER",
+    "businessName": "AOC Order Indicator",
+    "description": "Indicator identifying whether the order is associated with the AOC order classification.",
+    "businessKeywords": ["aoc order", "aoc indicator", "aoc flag", "order classification"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "UPDATED_BY",
+    "dataType": "NUMBER",
+    "businessName": "Updated By Identifier",
+    "description": "Identifier associated with the person, entity, or process that last updated the order.",
+    "businessKeywords": ["updated by", "last updated by", "order updater", "update user"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "UPDATED_ON",
+    "dataType": "DATE",
+    "businessName": "Last Updated Date",
+    "description": "Date on which the order record was last updated.",
+    "businessKeywords": ["last updated date", "updated date", "order update date", "modification date"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "UPDATE_REASON",
+    "dataType": "VARCHAR2",
+    "businessName": "Update Reason",
+    "description": "Reason provided for updating the order record.",
+    "businessKeywords": ["update reason", "reason for update", "order update reason", "modification reason"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CFS_FLAG",
+    "dataType": "NUMBER",
+    "businessName": "CFS Indicator",
+    "description": "Indicator associated with the business concept identified as CFS.",
+    "businessKeywords": ["cfs flag", "cfs indicator", "cfs status", "cfs"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CFS_STATUS",
+    "dataType": "VARCHAR2",
+    "businessName": "CFS Status",
+    "description": "Current status associated with the business concept identified as CFS.",
+    "businessKeywords": ["cfs status", "cfs state", "cfs progress", "cfs"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CREATED_BY_PROCESS",
+    "dataType": "VARCHAR2",
+    "businessName": "Created By Process",
+    "description": "Process associated with creating the order record.",
+    "businessKeywords": ["creation process", "created by process", "order creation process", "source process"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "SENDCONFIRMATIONEMAIL",
+    "dataType": "NUMBER",
+    "businessName": "Send Confirmation Email Indicator",
+    "description": "Indicator showing whether a confirmation email should be sent for the order.",
+    "businessKeywords": ["confirmation email", "send confirmation", "email confirmation", "order confirmation email"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "POA_WINDOW_ID",
+    "dataType": "NUMBER",
+    "businessName": "POA Window Identifier",
+    "description": "Identifier associated with a POA window related to the order.",
+    "businessKeywords": ["poa window id", "poa window", "window identifier", "order window"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "CARRIER_ACCT_NUM",
+    "dataType": "VARCHAR2",
+    "businessName": "Carrier Account Number",
+    "description": "Account number associated with the carrier used for the order.",
+    "businessKeywords": ["carrier account number", "carrier account", "shipping account", "carrier number"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "UPDATED_BY_PROCESS",
+    "dataType": "VARCHAR2",
+    "businessName": "Updated By Process",
+    "description": "Process associated with the most recent update to the order record.",
+    "businessKeywords": ["update process", "updated by process", "order update process", "modification process"]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER",
+    "columnName": "PO_NUMER",
+    "dataType": "VARCHAR2",
+    "businessName": "PO Number",
+    "description": "Purchase order number associated with the order record.",
+    "businessKeywords": ["purchase order number", "po number", "purchase order", "po reference"]
+  }
+]

@@ -1,0 +1,134 @@
+{
+  "businessMetadata": {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "businessName": "Order Material Details",
+    "description": "Stores information about the materials ordered for a specific project.",
+    "businessKeywords": [
+      "order material",
+      "project supplies",
+      "material details",
+      "inventory management",
+      "procurement"
+    ]
+  },
+  "columnMetadata": {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_MATERIAL",
+    "columns": [
+      {
+        "columnName": "ORDER_MATERIAL_ID",
+        "businessName": "Order Material ID",
+        "description": "Unique identifier for the order material.",
+        "businessKeywords": [
+          "order",
+          "material",
+          "id"
+        ]
+      },
+      {
+        "columnName": "ORDER_ID",
+        "businessName": "Order ID",
+        "description": "Identifier for the related order.",
+        "businessKeywords": [
+          "order",
+          "id"
+        ]
+      },
+      {
+        "columnName": "OBJECT_ID",
+        "businessName": "Object ID",
+        "description": "Identifier for the related object.",
+        "businessKeywords": [
+          "object",
+          "id"
+        ]
+      },
+      {
+        "columnName": "QUANTITY",
+        "businessName": "Quantity",
+        "description": "Number of items in the order material.",
+        "businessKeywords": [
+          "quantity",
+          "count"
+        ]
+      },
+      {
+        "columnName": "DESCRIPTION",
+        "businessName": "Description",
+        "description": "Text describing the order material.",
+        "businessKeywords": [
+          "description",
+          "text"
+        ]
+      },
+      {
+        "columnName": "OBJECT_TYPE",
+        "businessName": "Object Type",
+        "description": "Type of object related to the order material.",
+        "businessKeywords": [
+          "object",
+          "type"
+        ]
+      },
+      {
+        "columnName": "WEB_VISIBLE",
+        "businessName": "Web Visibility",
+        "description": "Flag indicating whether the order material is visible on the web.",
+        "businessKeywords": [
+          "visibility",
+          "web"
+        ]
+      },
+      {
+        "columnName": "PRODUCT_TYPE",
+        "businessName": "Product Type",
+        "description": "Type of product related to the order material.",
+        "businessKeywords": [
+          "product",
+          "type"
+        ]
+      },
+      {
+        "columnName": "PROD_ID",
+        "businessName": "Product ID",
+        "description": "Identifier for the related product.",
+        "businessKeywords": [
+          "product",
+          "id"
+        ]
+      },
+      {
+        "columnName": "DISTRIBUTION_CHANNEL",
+        "businessName": "Distribution Channel",
+        "description": "Channel through which the order material is distributed.",
+        "businessKeywords": [
+          "distribution",
+          "channel"
+        ]
+      },
+      {
+        "columnName": "DISTRIBUTION_TYPE",
+        "businessName": "Distribution Type",
+        "description": "Type of distribution for the order material.",
+        "businessKeywords": [
+          "distribution",
+          "type"
+        ]
+      }
+    ]
+  },
+  "relationshipMetadata": {
+    "schemaName": null,
+    "tableName": null,
+    "relationInfos": [
+      {
+        "fromTable": "THGSAM_ORDER_MATERIAL",
+        "fromColumn": "ORDER_ID",
+        "toTable": "HGAPPSAM.THGSAM_ORDER",
+        "toColumn": "ORDER_ID",
+        "type": "MANY_TO_ONE"
+      }
+    ]
+  }
+}

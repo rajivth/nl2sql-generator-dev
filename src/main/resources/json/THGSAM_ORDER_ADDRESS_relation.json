@@ -1,0 +1,70 @@
+[
+  {
+    "sourceTable": "THGSAM_ORDER_ADDRESS",
+    "sourceColumn": "HOSPITAL_ID",
+    "targetTable": "HGAPPSAM.THGSAM_HOSPITAL",
+    "targetColumn": "HOSPITAL_ID",
+    "relationshipType": "MANY_TO_ONE",
+    "businessName": "Order Address to Hospital Relationship",
+    "description": "Represents the relationship in which multiple order address records can be associated with a single hospital through the HOSPITAL_ID identifier.",
+    "businessKeywords": [
+      "order address",
+      "hospital",
+      "hospital address",
+      "hospital relationship",
+      "order hospital",
+      "healthcare facility association"
+    ]
+  },
+  {
+    "sourceTable": "THGSAM_ORDER_ADDRESS",
+    "sourceColumn": "PHARAMACY_ID",
+    "targetTable": "HGAPPSAM.THGSAM_PHARMACY",
+    "targetColumn": "PHARAMACY_ID",
+    "relationshipType": "MANY_TO_ONE",
+    "businessName": "Order Address to Pharmacy Relationship",
+    "description": "Represents the relationship in which multiple order address records can be associated with a single pharmacy through the PHARAMACY_ID identifier.",
+    "businessKeywords": [
+      "order address",
+      "pharmacy",
+      "pharmacy address",
+      "pharmacy relationship",
+      "order pharmacy",
+      "pharmacy association"
+    ]
+  },
+  {
+    "sourceTable": "THGSAM_ORDER_ADDRESS",
+    "sourceColumn": "ORDER_ID",
+    "targetTable": "HGAPPSAM.THGSAM_ORDER",
+    "targetColumn": "ORDER_ID",
+    "relationshipType": "MANY_TO_ONE",
+    "businessName": "Order Address to Order Relationship",
+    "description": "Represents the relationship in which multiple order address records can be associated with a single order through the ORDER_ID identifier.",
+    "businessKeywords": [
+      "order address",
+      "order relationship",
+      "shipping address",
+      "delivery address",
+      "order association",
+      "order address association"
+    ]
+  },
+  {
+    "sourceTable": "THGSAM_ORDER_ADDRESS",
+    "sourceColumn": "ORDER_ENTRY_ID",
+    "targetTable": "HGAPPOTU.THGOTU_ORDER_ENTRY",
+    "targetColumn": "ORDER_ENTRY_ID",
+    "relationshipType": "MANY_TO_ONE",
+    "businessName": "Order Address to Order Entry Relationship",
+    "description": "Represents the relationship in which multiple order address records can be associated with a single order entry through the ORDER_ENTRY_ID identifier.",
+    "businessKeywords": [
+      "order address",
+      "order entry",
+      "order entry relationship",
+      "address association",
+      "order processing",
+      "order address association"
+    ]
+  }
+]

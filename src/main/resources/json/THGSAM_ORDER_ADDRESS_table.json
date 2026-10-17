@@ -1,0 +1,16 @@
+{
+  "schemaName": "HGAPPSAM",
+  "tableName": "THGSAM_ORDER_ADDRESS",
+  "businessName": "Order Address",
+  "description": "Represents address information associated with an order, such as addresses used for order-related delivery, shipping, or other business purposes.",
+  "businessKeywords": [
+    "order address",
+    "order addresses",
+    "shipping address",
+    "delivery address",
+    "address information",
+    "order location",
+    "customer address",
+    "destination address"
+  ]
+}

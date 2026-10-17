@@ -1,0 +1,20 @@
+[
+  {
+    "sourceTable": "THGSAM_ORDER_MATERIAL",
+    "sourceColumn": "ORDER_ID",
+    "targetTable": "HGAPPSAM.THGSAM_ORDER",
+    "targetColumn": "ORDER_ID",
+    "relationshipType": "MANY_TO_ONE",
+    "businessName": "Order Material to Order Relationship",
+    "description": "Represents the relationship in which multiple order material records can be associated with a single order through the ORDER_ID identifier.",
+    "businessKeywords": [
+      "order material",
+      "order relationship",
+      "material order",
+      "order items",
+      "order line items",
+      "order association",
+      "material association"
+    ]
+  }
+]

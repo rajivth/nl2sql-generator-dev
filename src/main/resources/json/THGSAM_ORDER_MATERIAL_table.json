@@ -1,0 +1,19 @@
+{
+  "schemaName": "HGAPPSAM",
+  "tableName": "THGSAM_ORDER_MATERIAL",
+  "businessName": "Order Material",
+  "description": "Represents material or item information associated with an order.",
+  "businessKeywords": [
+    "order material",
+    "order materials",
+    "ordered material",
+    "order item",
+    "order items",
+    "material",
+    "materials",
+    "product",
+    "products",
+    "order product",
+    "order line item"
+  ]
+}

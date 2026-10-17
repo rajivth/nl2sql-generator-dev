@@ -1,0 +1,17 @@
+{
+  "schemaName": "HGAPPSAM",
+  "tableName": "THGSAM_ORDER",
+  "businessName": "Customer Orders",
+  "description": "Stores information related to business orders.",
+  "businessKeywords": [
+    "order",
+    "orders",
+    "customer order",
+    "sales order",
+    "purchase order",
+    "order record",
+    "order information"
+  ]
+}
+
+

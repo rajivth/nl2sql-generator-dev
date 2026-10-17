@@ -1,0 +1,860 @@
+[
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ORDER_ADDRESS_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Address Identifier",
+    "description": "Unique identifier for an order address record.",
+    "businessKeywords": [
+      "order address id",
+      "address identifier",
+      "address record id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ORDER_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Identifier",
+    "description": "Identifier associated with the order for this address record.",
+    "businessKeywords": [
+      "order id",
+      "order identifier",
+      "order reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "FIRSTNAME",
+    "dataType": "VARCHAR2",
+    "businessName": "First Name",
+    "description": "First or given name associated with the order address contact.",
+    "businessKeywords": [
+      "first name",
+      "given name",
+      "contact first name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "MIDDLENAME",
+    "dataType": "VARCHAR2",
+    "businessName": "Middle Name",
+    "description": "Middle name associated with the order address contact.",
+    "businessKeywords": [
+      "middle name",
+      "contact middle name",
+      "second name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "LASTNAME",
+    "dataType": "VARCHAR2",
+    "businessName": "Last Name",
+    "description": "Last or family name associated with the order address contact.",
+    "businessKeywords": [
+      "last name",
+      "surname",
+      "family name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ADDRESS1",
+    "dataType": "VARCHAR2",
+    "businessName": "Address Line 1",
+    "description": "Primary street address line associated with the order.",
+    "businessKeywords": [
+      "address line 1",
+      "street address",
+      "primary address"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ADDRESS2",
+    "dataType": "VARCHAR2",
+    "businessName": "Address Line 2",
+    "description": "Secondary address line associated with the order.",
+    "businessKeywords": [
+      "address line 2",
+      "secondary address",
+      "address details"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "CITY",
+    "dataType": "VARCHAR2",
+    "businessName": "City",
+    "description": "City associated with the order address.",
+    "businessKeywords": [
+      "city",
+      "address city",
+      "location city"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "STATE",
+    "dataType": "VARCHAR2",
+    "businessName": "State",
+    "description": "State or regional administrative area associated with the order address.",
+    "businessKeywords": [
+      "state",
+      "region",
+      "address state"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ZIP",
+    "dataType": "VARCHAR2",
+    "businessName": "Postal Code",
+    "description": "ZIP or postal code associated with the order address.",
+    "businessKeywords": [
+      "zip code",
+      "postal code",
+      "postcode"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "COUNTRY",
+    "dataType": "VARCHAR2",
+    "businessName": "Country",
+    "description": "Country associated with the order address.",
+    "businessKeywords": [
+      "country",
+      "address country",
+      "nation"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "PHONE",
+    "dataType": "VARCHAR2",
+    "businessName": "Phone Number",
+    "description": "Telephone number associated with the order address contact.",
+    "businessKeywords": [
+      "phone number",
+      "telephone",
+      "contact number"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "VOICEMAIL",
+    "dataType": "VARCHAR2",
+    "businessName": "Voicemail",
+    "description": "Voicemail contact information associated with the order address contact.",
+    "businessKeywords": [
+      "voicemail",
+      "voice mail",
+      "contact voicemail"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "FAX",
+    "dataType": "VARCHAR2",
+    "businessName": "Fax Number",
+    "description": "Fax number associated with the order address contact.",
+    "businessKeywords": [
+      "fax",
+      "fax number",
+      "contact fax"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "EMAIL",
+    "dataType": "VARCHAR2",
+    "businessName": "Email Address",
+    "description": "Email address associated with the order address contact.",
+    "businessKeywords": [
+      "email",
+      "email address",
+      "contact email"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ORDER_ENTRY_ID",
+    "dataType": "NUMBER",
+    "businessName": "Order Entry Identifier",
+    "description": "Identifier associated with an order entry related to the address record.",
+    "businessKeywords": [
+      "order entry id",
+      "order entry",
+      "order entry identifier"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "RECIPIENT_OBJECT_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Recipient Object Type",
+    "description": "Classification of the recipient object associated with the order address.",
+    "businessKeywords": [
+      "recipient type",
+      "recipient object type",
+      "recipient classification"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "RECIPIENT_OBJECT_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Recipient Object Identifier",
+    "description": "Identifier associated with the recipient object for the order address.",
+    "businessKeywords": [
+      "recipient id",
+      "recipient identifier",
+      "recipient object id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "COMPANY_NAME",
+    "dataType": "VARCHAR2",
+    "businessName": "Company Name",
+    "description": "Name of the company associated with the order address.",
+    "businessKeywords": [
+      "company name",
+      "organization name",
+      "business name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "PROVINCE",
+    "dataType": "VARCHAR2",
+    "businessName": "Province",
+    "description": "Province associated with the order address.",
+    "businessKeywords": [
+      "province",
+      "address province",
+      "administrative region"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SHIP_TO_CLINIC",
+    "dataType": "NUMBER",
+    "businessName": "Ship to Clinic Indicator",
+    "description": "Indicator showing whether the order is intended to be shipped to a clinic.",
+    "businessKeywords": [
+      "ship to clinic",
+      "clinic delivery",
+      "clinic shipping"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "CLIENT_ADDRESS_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Client Address Identifier",
+    "description": "Identifier associated with the client's address.",
+    "businessKeywords": [
+      "client address id",
+      "client address",
+      "customer address id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SHIPPING_LABEL",
+    "dataType": "VARCHAR2",
+    "businessName": "Shipping Label",
+    "description": "Shipping label information associated with the order address.",
+    "businessKeywords": [
+      "shipping label",
+      "delivery label",
+      "shipment label"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SPECIALITY_PHARMACY",
+    "dataType": "NUMBER",
+    "businessName": "Speciality Pharmacy Indicator",
+    "description": "Indicator associated with speciality pharmacy information for the order address.",
+    "businessKeywords": [
+      "speciality pharmacy",
+      "specialty pharmacy",
+      "pharmacy indicator"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "NPI_NUMBER",
+    "dataType": "VARCHAR2",
+    "businessName": "NPI Number",
+    "description": "National Provider Identifier number associated with the address record.",
+    "businessKeywords": [
+      "npi number",
+      "national provider identifier",
+      "provider id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "DESIGNATION",
+    "dataType": "VARCHAR2",
+    "businessName": "Designation",
+    "description": "Professional designation or title associated with the address contact.",
+    "businessKeywords": [
+      "designation",
+      "professional title",
+      "job title"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ATTENTION_LINE",
+    "dataType": "VARCHAR2",
+    "businessName": "Attention Line",
+    "description": "Attention line used to specify the intended recipient for the address.",
+    "businessKeywords": [
+      "attention line",
+      "attention recipient",
+      "address attention"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "HOSPITAL_ID",
+    "dataType": "NUMBER",
+    "businessName": "Hospital Identifier",
+    "description": "Identifier associated with a hospital related to the order address.",
+    "businessKeywords": [
+      "hospital id",
+      "hospital identifier",
+      "healthcare facility id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "PHARAMACY_ID",
+    "dataType": "NUMBER",
+    "businessName": "Pharmacy Identifier",
+    "description": "Identifier associated with a pharmacy related to the order address.",
+    "businessKeywords": [
+      "pharmacy id",
+      "pharmacy identifier",
+      "drugstore id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SPECIALTY",
+    "dataType": "VARCHAR2",
+    "businessName": "Specialty",
+    "description": "Specialty classification associated with the address or recipient.",
+    "businessKeywords": [
+      "specialty",
+      "speciality",
+      "professional specialty"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ATTRIBUTE1",
+    "dataType": "VARCHAR2",
+    "businessName": "Attribute 1",
+    "description": "Additional attribute value associated with the order address record.",
+    "businessKeywords": [
+      "attribute 1",
+      "additional attribute",
+      "custom attribute"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ATTRIBUTE2",
+    "dataType": "VARCHAR2",
+    "businessName": "Attribute 2",
+    "description": "Additional attribute value associated with the order address record.",
+    "businessKeywords": [
+      "attribute 2",
+      "additional attribute",
+      "custom attribute"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ATTRIBUTE3",
+    "dataType": "VARCHAR2",
+    "businessName": "Attribute 3",
+    "description": "Additional attribute value associated with the order address record.",
+    "businessKeywords": [
+      "attribute 3",
+      "additional attribute",
+      "custom attribute"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SPCLTY_PHRMCY",
+    "dataType": "VARCHAR2",
+    "businessName": "Specialty Pharmacy",
+    "description": "Specialty pharmacy information associated with the order address.",
+    "businessKeywords": [
+      "specialty pharmacy",
+      "speciality pharmacy",
+      "pharmacy"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SRF_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "SRF Identifier",
+    "description": "Identifier associated with the business entity or process represented by SRF.",
+    "businessKeywords": [
+      "srf id",
+      "srf identifier",
+      "srf reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "TMX_PERSON_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "TMX Person Identifier",
+    "description": "Identifier associated with a person represented in the TMX system or process.",
+    "businessKeywords": [
+      "tmx person id",
+      "person identifier",
+      "tmx id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ADDR_XREF_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Address Cross Reference Identifier",
+    "description": "Identifier used as a cross reference for an address record.",
+    "businessKeywords": [
+      "address cross reference",
+      "address xref",
+      "address reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SR_FNAME",
+    "dataType": "VARCHAR2",
+    "businessName": "SR First Name",
+    "description": "First name associated with the entity represented by SR.",
+    "businessKeywords": [
+      "sr first name",
+      "first name",
+      "given name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SR_LNAME",
+    "dataType": "VARCHAR2",
+    "businessName": "SR Last Name",
+    "description": "Last name associated with the entity represented by SR.",
+    "businessKeywords": [
+      "sr last name",
+      "last name",
+      "surname"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SR_EMAIL",
+    "dataType": "VARCHAR2",
+    "businessName": "SR Email Address",
+    "description": "Email address associated with the entity represented by SR.",
+    "businessKeywords": [
+      "sr email",
+      "email address",
+      "contact email"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "DELIVERY_DATE",
+    "dataType": "DATE",
+    "businessName": "Delivery Date",
+    "description": "Date associated with delivery for the order address.",
+    "businessKeywords": [
+      "delivery date",
+      "shipment date",
+      "delivery schedule"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "EXTRACT_DATE",
+    "dataType": "DATE",
+    "businessName": "Extract Date",
+    "description": "Date on which address-related information was extracted.",
+    "businessKeywords": [
+      "extract date",
+      "data extraction date",
+      "extraction date"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SRF_DATE",
+    "dataType": "DATE",
+    "businessName": "SRF Date",
+    "description": "Date associated with the business entity or process represented by SRF.",
+    "businessKeywords": [
+      "srf date",
+      "srf date information",
+      "srf record date"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "CUSTOMER_ORDER_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Customer Order Identifier",
+    "description": "Customer-provided or customer-associated identifier for an order.",
+    "businessKeywords": [
+      "customer order id",
+      "customer order number",
+      "customer order reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "VEEVA_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Veeva Identifier",
+    "description": "Identifier associated with the entity represented by Veeva.",
+    "businessKeywords": [
+      "veeva id",
+      "veeva identifier",
+      "veeva reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ALK_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "ALK Identifier",
+    "description": "Identifier associated with the business entity or system represented by ALK.",
+    "businessKeywords": [
+      "alk id",
+      "alk identifier",
+      "alk reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SR_PROFILE",
+    "dataType": "VARCHAR2",
+    "businessName": "SR Profile",
+    "description": "Profile information associated with the entity represented by SR.",
+    "businessKeywords": [
+      "sr profile",
+      "profile",
+      "contact profile"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "STAFF_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Staff Identifier",
+    "description": "Identifier associated with a staff member related to the order address.",
+    "businessKeywords": [
+      "staff id",
+      "staff identifier",
+      "employee id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ACCOUNT_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Account Identifier",
+    "description": "Identifier associated with an account related to the order address.",
+    "businessKeywords": [
+      "account id",
+      "account identifier",
+      "account reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "NON_PRESCRIBER",
+    "dataType": "NUMBER",
+    "businessName": "Non-Prescriber Indicator",
+    "description": "Indicator showing whether the associated person is classified as a non-prescriber.",
+    "businessKeywords": [
+      "non prescriber",
+      "non-prescriber",
+      "prescriber indicator"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "CUSTOMER_DEMO_NAME",
+    "dataType": "VARCHAR2",
+    "businessName": "Customer Demo Name",
+    "description": "Name associated with a customer demonstration or demo classification.",
+    "businessKeywords": [
+      "customer demo",
+      "demo name",
+      "demonstration name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "DEMO_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Demo Type",
+    "description": "Classification or type of customer demonstration associated with the record.",
+    "businessKeywords": [
+      "demo type",
+      "demonstration type",
+      "demo category"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "DEMO_START_DATE",
+    "dataType": "DATE",
+    "businessName": "Demo Start Date",
+    "description": "Start date associated with a customer demonstration period.",
+    "businessKeywords": [
+      "demo start date",
+      "demonstration start",
+      "demo beginning date"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "DEMO_END_DATE",
+    "dataType": "DATE",
+    "businessName": "Demo End Date",
+    "description": "End date associated with a customer demonstration period.",
+    "businessKeywords": [
+      "demo end date",
+      "demonstration end",
+      "demo expiration date"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "TERRITORY_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Territory Identifier",
+    "description": "Identifier associated with a business territory related to the address record.",
+    "businessKeywords": [
+      "territory id",
+      "territory identifier",
+      "sales territory"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SITE_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Site Identifier",
+    "description": "Identifier associated with a site related to the order address.",
+    "businessKeywords": [
+      "site id",
+      "site identifier",
+      "location id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SITE_NAME",
+    "dataType": "VARCHAR2",
+    "businessName": "Site Name",
+    "description": "Name of the site associated with the order address.",
+    "businessKeywords": [
+      "site name",
+      "location name",
+      "facility name"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ENROLLMENT_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Enrollment Identifier",
+    "description": "Identifier associated with an enrollment related to the address record.",
+    "businessKeywords": [
+      "enrollment id",
+      "enrollment identifier",
+      "registration id"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "SUFFIX",
+    "dataType": "VARCHAR2",
+    "businessName": "Name Suffix",
+    "description": "Suffix associated with the name of the order address contact.",
+    "businessKeywords": [
+      "name suffix",
+      "suffix",
+      "contact suffix"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ADDRESS_TYPE",
+    "dataType": "VARCHAR2",
+    "businessName": "Address Type",
+    "description": "Classification or type of address associated with the order.",
+    "businessKeywords": [
+      "address type",
+      "address category",
+      "address classification"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "DISTRIBUTOR",
+    "dataType": "VARCHAR2",
+    "businessName": "Distributor",
+    "description": "Distributor associated with the order address or order fulfillment.",
+    "businessKeywords": [
+      "distributor",
+      "distribution partner",
+      "supplier"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "HCP_OVERRIDE",
+    "dataType": "VARCHAR2",
+    "businessName": "HCP Override",
+    "description": "Override information associated with the healthcare professional classification or data.",
+    "businessKeywords": [
+      "hcp override",
+      "healthcare professional override",
+      "override"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "HCP_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "Healthcare Professional Identifier",
+    "description": "Identifier associated with a healthcare professional.",
+    "businessKeywords": [
+      "hcp id",
+      "healthcare professional id",
+      "provider identifier"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "BIDS_ID",
+    "dataType": "VARCHAR2",
+    "businessName": "BIDS Identifier",
+    "description": "Identifier associated with the business entity or system represented by BIDS.",
+    "businessKeywords": [
+      "bids id",
+      "bids identifier",
+      "bids reference"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "USER_HEADSHOT_IMAGEPATH",
+    "dataType": "VARCHAR2",
+    "businessName": "User Headshot Image Path",
+    "description": "Path or location reference for a user's headshot image.",
+    "businessKeywords": [
+      "user headshot",
+      "profile image",
+      "headshot image path"
+    ]
+  },
+  {
+    "schemaName": "HGAPPSAM",
+    "tableName": "THGSAM_ORDER_ADDRESS",
+    "columnName": "ADDRESS3",
+    "dataType": "VARCHAR2",
+    "businessName": "Address Line 3",
+    "description": "Additional address line associated with the order address.",
+    "businessKeywords": [
+      "address line 3",
+      "additional address",
+      "address details"
+    ]
+  }
+]

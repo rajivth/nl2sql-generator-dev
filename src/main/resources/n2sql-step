@@ -1,0 +1,36 @@
+CREATE TABLE table_metadata
+(
+    id BIGSERIAL PRIMARY KEY,
+    schema_name VARCHAR(100),
+    table_name VARCHAR(100),
+    business_name VARCHAR(200),
+    description TEXT,
+    domain VARCHAR(100),
+    process VARCHAR(100),
+    keywords TEXT[],
+    row_count BIGINT
+);
+
+
+CREATE TABLE column_metadata (
+    id BIGSERIAL PRIMARY KEY,
+    table_id BIGINT,
+    column_name VARCHAR(100),
+    business_name VARCHAR(200),
+    description TEXT,
+    data_type VARCHAR(50),
+    is_pk BOOLEAN,
+    is_fk BOOLEAN,
+    searchable BOOLEAN,
+    aggregatable BOOLEAN,
+    keywords TEXT[]
+);
+
+CREATE TABLE relationship_metadata (
+    id BIGSERIAL PRIMARY KEY,
+    parent_table BIGINT,
+    parent_column VARCHAR(100),
+    child_table BIGINT,
+    child_column VARCHAR(100),
+    relation_type VARCHAR(50)
+);

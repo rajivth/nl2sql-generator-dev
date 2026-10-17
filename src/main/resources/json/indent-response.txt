@@ -1,0 +1,24 @@
+{
+  "intentType": "ANALYTICAL",
+  "businessDomain": "HR",
+  "businessKeywords": ["customers", "salary", "last month"],
+  "selections": [
+    {"attribute": "customer name"},
+    {"attribute": "total salary"}
+  ],
+  "aggregations": [
+    {"function": "SUM", "field": "salary"}
+  ],
+  "filters": [
+    {"operator": "GREATER_THAN", "field": "salary", "value": 50000}
+  ],
+  "groupBy": ["customer"],
+  "sorting": [{"direction": "DESC", "field": "total salary"}],
+  "pagination": {
+    "limit": 10,
+    "offset": 0
+  },
+  "timeRangeIntent": {
+    "timeRange": "last month"
+  }
+}
